@@ -31,12 +31,25 @@ Spring Boot와 Java로 백엔드를 구성하고, HTML/CSS/JavaScript로 프론�
 ---
 
 ## 🖥 화면 예시
-- 처음 화면
-<img width="532" alt="image" src="https://github.com/user-attachments/assets/f5cf9e1b-2119-491a-a921-87cc8986799d" />
-- 입력을 하지 않았을 경우
-  <img width="571" alt="image" src="https://github.com/user-attachments/assets/a5f68b1f-ac00-4d5b-ad20-f8d2abfff6f7" />
-- 입력을 하였을 경우
-  <img width="610" alt="image" src="https://github.com/user-attachments/assets/62a49fe0-57b4-479b-a89c-c43c7c2d7827" />
+
+- ### 🔹 처음 화면  
+  사용자가 해시할 텍스트와 옵션을 선택할 수 있는 기본 화면입니다.
+
+  <img width="532" alt="처음 화면" src="https://github.com/user-attachments/assets/f5cf9e1b-2119-491a-a921-87cc8986799d" />
+
+---
+
+- ### ❗ 입력을 하지 못했을 경우  
+  텍스트 입력 없이 실행하면 오류 메시지를 반환합니다.
+
+  <img width="571" alt="입력 오류" src="https://github.com/user-attachments/assets/a5f68b1f-ac00-4d5b-ad20-f8d2abfff6f7" />
+
+---
+
+- ### ✅ 입력을 하였을 경우  
+  선택한 알고리즘으로 해시된 결과가 출력됩니다.
+
+  <img width="610" alt="입력 결과" src="https://github.com/user-attachments/assets/62a49fe0-57b4-479b-a89c-c43c7c2d7827" />
 
 
 
