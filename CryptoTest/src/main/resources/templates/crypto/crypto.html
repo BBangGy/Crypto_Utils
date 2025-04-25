@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>암호화</title>
+    <link rel="stylesheet" href="/crypto/assets/styles/crypto.css">
+    <link rel="stylesheet" href="/crypto/assets/styles/common.css">
+    <script defer src="/crypto/assets/scripts/crypto.js"></script>
+</head>
+<body>
+<form novalidate id="cryptoForm">
+    <h2 class="title">Crypto_Utils</h2>
+    <table class="table">
+        <tbody>
+        <tr>
+            <td>
+                <div class="row firstRow">
+                    <div class="col fistCol">
+                        <span>암호화 방식</span>
+                        <label>
+                            <select class="selectOp -object-input" name="option">
+                                <option selected value="SHA1">SHA-1</option>
+                                <option value="SHA256">SHA-256</option>
+                                <option value="SHA512">SHA-512</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="col secondCol">
+                        <span>평문</span>
+                        <label for="inputText">
+                            <input autofocus id="inputText" autocomplete="off" class="-object-input" required maxlength="20" minlength="8"
+                                   spellcheck="off" name="inputText"
+                                   type="text">
+                            <button class="object-button" type="submit">암호화 요청</button>
+                        </label>
+                        <span class="warning">바꾸시려는 문장을 입력해주세요</span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="toUpperCase">
+                    <input id="toUpperCase" name="toUpper" type="checkbox">
+                    <span>대문자로 반환받기</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span>결과</span>
+                <div class="row secondRow">
+                    <textarea class="result" readonly name="result"></textarea>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>

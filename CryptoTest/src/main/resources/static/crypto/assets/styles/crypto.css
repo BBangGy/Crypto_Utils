@@ -1,0 +1,124 @@
+#cryptoForm {
+    position: absolute;
+    width: 30rem;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+
+    align-items: stretch;
+    background-color: #ffffff;
+    border-radius: 0.325rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+#cryptoForm > .title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 200;
+}
+#cryptoForm>.table{
+    border-spacing: 1rem 0.5rem;
+    margin: -0.5rem -1rem;
+}
+#cryptoForm>.table>tbody>tr{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 0.625rem;
+ }
+#cryptoForm>.table>tbody>tr:nth-child(2)>td>label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+#cryptoForm>.table>tbody>tr:nth-child(2)>td>label>span {
+    font-size: 0.8rem;
+
+}
+#cryptoForm>.table>tbody>tr:last-child{
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: stretch;
+}
+#cryptoForm>.table>tbody>tr:last-child>td{
+    margin-top: -0.63rem;
+    width: 100%;
+    height: 100%;
+}
+#cryptoForm>.table>tbody>tr:last-child>td>.row> textarea{
+    height: 100%;
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+}
+#cryptoForm>.table>tbody>tr>td>.secondRow{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#cryptoForm>.table>tbody>tr>td>.firstRow>.secondCol>.warning{
+    color: white;
+    font-size: 0.7rem;
+    width: auto;
+    height: auto;
+    opacity: 0;
+    background-color: red;
+    border-radius: 0.625rem;
+    padding: 0.2rem 0.2rem;
+    transition-duration: 250ms;
+    transition-property: opacity,background-color;
+    transition-timing-function: ease;
+
+
+}
+#cryptoForm>.table>tbody>tr>td>.firstRow>.secondCol>.warning.--visible{
+    opacity: 1;
+}
+#cryptoForm>.table>tbody>tr>td>.row{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+#cryptoForm>.table>tbody>tr>td>.firstRow>.col{
+    height: 3.5rem;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+#cryptoForm>.table>tbody>tr>td>.firstRow>.col.secondCol>label>input{
+    flex-grow: 1;
+}
+#cryptoForm>.table>tbody>tr>td>.row>.col>label{
+    padding-top: 0.625rem;
+}
+.object-button {
+    background-color: #148f77;
+    color: #ffffff;
+    height: 2.25rem;
+    cursor: pointer;
+    padding: 0 1rem;
+    border: none;
+}
+
+.-object-input{
+    width: 13rem;
+    height: 2.25rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+}
+.selectOp{
+    width: 6rem;
+}
