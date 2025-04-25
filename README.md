@@ -31,8 +31,13 @@ Spring Boot와 Java로 백엔드를 구성하고, HTML/CSS/JavaScript로 프론�
 ---
 
 ## 🖥 화면 예시
-
+- 처음 화면
 <img width="532" alt="image" src="https://github.com/user-attachments/assets/f5cf9e1b-2119-491a-a921-87cc8986799d" />
+- 입력을 하지 않았을 경우
+  <img width="571" alt="image" src="https://github.com/user-attachments/assets/a5f68b1f-ac00-4d5b-ad20-f8d2abfff6f7" />
+- 입력을 하였을 경우
+  <img width="610" alt="image" src="https://github.com/user-attachments/assets/62a49fe0-57b4-479b-a89c-c43c7c2d7827" />
+
 
 
 ---
